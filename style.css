@@ -1,0 +1,40 @@
+.heading{
+    width:100%;
+    margin:0px;
+    font-size:175%;
+    color:rgb(229, 255, 0);
+}
+#start{
+    font-size:150%
+}
+h3{
+    font-size:100%;
+    color:rgb(255, 230, 0);
+    font-weight: bold;
+}
+#status{
+    font-size:120%;
+    margin-top:20px;
+}
+body{
+    background-image: url("edog.jpg");
+    background-size:40%;
+
+}
+canvas{
+    background-color:white;
+    border:5px solid black;
+    margin-top:50px;
+    margin-left:630px;
+    animation-name: callME;
+    animation-duration:3000ms;
+    animation-iteration-count: infinite;
+}
+@keyframes callME{
+    from{box-shadow: 5px 5px 10px rgb(255, 0, 0);}
+    to{box-shadow: 5px 5px 10px rgb(255, 94, 0);}
+}
+input{
+    margin-top:20;
+} 
+    
